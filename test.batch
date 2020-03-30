@@ -6,10 +6,14 @@
 #
 #SBATCH --ntasks=1
 #
+#SBATCH -o test.out
+#
+#SBATCH -e test.out
+#
 #//////////////////////////////////////#
 
 module purge
-module load python/3.8.1
+module load python/3.8.2
 
 which python3
 
