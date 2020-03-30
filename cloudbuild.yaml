@@ -5,8 +5,7 @@ steps:
   args: ['build',
          '.',
          '-t',
-         'gcr.io/${PROJECT_ID}/pythondemo_slurm-gcp:latest',
-         ]
+         'gcr.io/${PROJECT_ID}/pythondemo_slurm-gcp:latest']
 
 images: ['gcr.io/${PROJECT_ID}/pythondemo_slurm-gcp:latest']
 

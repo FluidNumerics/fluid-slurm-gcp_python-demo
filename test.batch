@@ -6,6 +6,10 @@
 #
 #SBATCH --ntasks=1
 #
+#SBATCH -o test.out
+#
+#SBATCH -e test.out
+#
 #//////////////////////////////////////#
 
 module purge
