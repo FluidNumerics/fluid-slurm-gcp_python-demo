@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-#SBATCH --account=default
+#SBATCH --account=demo-account
 #
-#SBATCH --partition=partition-1
+#SBATCH --partition=demo-partition
 #
 #SBATCH --ntasks=1
 #
